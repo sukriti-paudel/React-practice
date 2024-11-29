@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #6a7083; /* Softer background color for better contrast */
+}
+
+.container {
+  height: 25rem; /* Increased height for better game area */
+  width: 25rem; /* Increased width for better game area */
+  border: 2px solid #333; /* Thicker border for visibility */
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  background-color: #f9f9f9; /* Light background for the game area */
+  box-shadow: 0 2px 15px rgba(65, 60, 60, 0.5); /* Subtle shadow effect */
+  border-radius: 10px; /* Rounded corners for the game area */
+  position: relative; /* Allow positioning of reset message */
+}
+
+
+
+.food {
+  background-color: rgb(255, 52, 52);
+  border-radius: 30%;
+ 
+}
+
+.snake {
+  background-color: #576658; /* Changed snake color to a bright green */
+  border-radius: 50%; /* Make it round */
+ /* Slight shadow */
+}
+
+.reset-message {
+  font-family: cursive; /* Use cursive font for fun */
+  font-size: 32px; /* Larger font size */
+  font-weight: bold; /* Make it bold */
+  margin: 20px 0; /* Spacing around the message */
+  color: #fffdfd; /* Light color to catch attention */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+  z-index: 10; /* Bring it to front */
+}
