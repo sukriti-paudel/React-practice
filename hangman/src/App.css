@@ -1,0 +1,104 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(60deg, #b8b5b5, #5f5757, #777272);
+  color: rgb(254, 253, 255);
+  font-family:cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 5px auto;
+  text-align: center;
+
+  font-weight: 700;
+
+}
+
+.game-container {
+  background-color: #ffffff;
+  /* background-image: linear-gradient(60deg, #fcfcfc, #edeeec); */
+  padding: 20px 30px;
+  border-radius: 20px;
+  position: relative;
+  margin: 2vh auto;
+  height: 60vh;
+  width: 70vh;
+}
+
+.figure-container {
+  fill: darkslategray;
+  stroke: darkslategray;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+.wrong-letters-container {
+  color: rgba(241, 71, 71, 0.993);
+  position: absolute;
+  top: 15px;
+  right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.hint {
+  width: 95vh;
+  margin: 2px 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: left;
+  background-color: rgb(255, 255, 124);
+  padding: 0 15px;
+  
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.wrong-letters-container p {
+
+  margin: 0 0 5px;
+}
+
+.wrong-letters-container span {
+  font-size: 26px;
+}
+
+.word {
+  
+  font-size: 26px;
+  display: flex;
+  position: absolute;
+  color: rgb(3, 78, 3);
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.letter {
+  border-bottom: 3px solid #8283c2;
+  display: inline-flex;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
