@@ -1,0 +1,31 @@
+.boxes{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #637d8a ;
+    border: 4px solid #0f1b21;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    margin:2px;
+    box-sizing: border-box;
+}
+.row1,.row2,.row3{
+    height: 30%;
+    width: 100%;
+    
+}
+.reset
+{
+    margin-top: 2px;
+}
+.board{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    margin: auto;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
